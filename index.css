@@ -4,6 +4,9 @@
 }
 body{
     overflow-x: hidden; /* Hide vertical scrollbar */
+  
+
+
 }
 html{
     scroll-behavior: smooth;
@@ -170,7 +173,7 @@ bottom: 5px;
     border-radius: 6px;
     width: 120px;
     color: #e2e666;
-    
+    transition: 0.4s;   
 
 }
 .glass2{
@@ -213,6 +216,14 @@ bottom:90px;
     bottom: 150px;
 
 
+ }
+
+
+ .glass3:hover, .glass2:hover{
+    
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
  }
  /* width */
 ::-webkit-scrollbar {
