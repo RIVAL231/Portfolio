@@ -6,7 +6,7 @@ body{
     overflow-x: hidden; /* Hide vertical scrollbar */
 }
 html{
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 .poppins-medium {
     font-family: "Poppins", sans-serif;
