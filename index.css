@@ -5,6 +5,9 @@
 body{
     overflow-x: hidden; /* Hide vertical scrollbar */
 }
+html{
+    scroll-behaviour: smooth;
+}
 .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
